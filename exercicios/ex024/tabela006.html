@@ -22,10 +22,21 @@
             color: white;
             background-color: rgb(105, 104, 104);
         }
+        col.carea {
+            background-color: red;
+        }
+        col.cmedia {
+            background-color: yellow;
+        }
+        
     </style>
 </head>
 <body>
     <table>
+        <colgroup>
+            <col span="4" class="carea" >
+            <col class="cmedia">
+        </colgroup>
             <thead>
                 <tr class="separadores">
                     <th rowspan="2" scope="col">Área</th>
