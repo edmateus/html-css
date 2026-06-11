@@ -6,17 +6,22 @@
     <title>Exercícios de Iframe</title>
     <style>
         iframe {
-            width: 150px;
+            width: 95vh;
             height: 300px;
         }
     </style>
 </head>
 <body>
     <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint sit rerum quod labore expedita qui debitis, totam libero soluta dolore vitae accusamus perferendis fugit, atque laborum architecto quidem aperiam quia!</h1>
+    <ul>
+        <li><a href="paginas-iframe/page001.html" target="frame">Pagina 01</a></li>
+        <li><a href="iframe001.html" target="frame">Pagina 02</a></li>
+        <li><a href="paginas-iframe/page002.html" target="frame">Pagina 03</a></li>
+    </ul>
 
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis culpa saepe facere, minus maxime delectus totam natus modi blanditiis alias mollitia et odit rerum esse, quam fuga, libero assumenda dicta.</p>
 
-    <iframe src="page001.html" frameborder="0"></iframe>
+    <iframe srcdoc="<html> <h1>Clique em uma das opções acima</h1> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, soluta at eaque asperiores id, maiores ab vitae esse est non quibusdam illo aut corporis, laborum accusamus aspernatur magnam veniam dolor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo delectus consequuntur architecto optio laborum nostrum facilis vel laboriosam. Eum laudantium, veritatis maiores aspernatur quo voluptate fugit porro autem consequuntur fugiat!</p> </html" name="frame"></iframe>
 
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis culpa saepe facere, minus maxime delectus totam natus modi blanditiis alias mollitia et odit rerum esse, quam fuga, libero assumenda dicta.</p>
 </body>
