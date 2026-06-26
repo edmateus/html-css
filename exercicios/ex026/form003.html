@@ -8,7 +8,7 @@
 <body>
     <fieldset>
         <legend>Ficha do paciente</legend>
-        <form action="www.google.com" method="get" autocomplete="on">
+        <form action="www.google.com" method="post" autocomplete="on">
             <div>
                 <label for="inome">Nome:</label>
                 <input type="text" name="nome" id="inome" placeholder="Nome completo" value="Edson">
@@ -50,12 +50,23 @@
             </div>
         <fieldset>
             <legend>Sexo</legend>
-            <input type="radio" name="sex" id="ifem">
+            <input type="radio" name="sex" id="ifem" value="F">
             <label for="ifem">Feminino</label>
-            <input type="radio" name="sex" id="imas">
-            <label for="imas">Masculino</label><br>
+            <input type="radio" name="sex" id="imas" value="M">
+            <label for="imas">Masculino</label><br>        
+            </fieldset> <br>
+        
+            <label for="icor">Qual cor você prefere?</label>
+            <input type="color" name="cor" id="icor" value="000000"><br>
+
+            <label for="isas">Seu nível de satisfação?</label>
+            <input type="range" name="sas" id="isas" min="10" max="30" value="15"> <br>
+
+            <label for="iper">Adicione uma foto de perfil</label>
+            <input type="file" name="per" id="iper">
             <input type="submit" value="Enviar">
-        </fieldset>
+
+
         </form>
     </fieldset>
 </body>
