@@ -1,3 +1,7 @@
 @charset 'UTF-8';
 
 /*Cofigurações deitado (landscape)*/
+
+body{
+    background: url(../mq002/imagens/cev-landscape.jpg);
+}

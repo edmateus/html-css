@@ -1,3 +1,16 @@
 @charset 'UTF-8';
 
 /*Configurações gerais*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+    color: white;
+    
+}
