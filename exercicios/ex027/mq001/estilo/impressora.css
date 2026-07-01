@@ -1,0 +1,15 @@
+@charset 'UTF-8';
+
+/*IMPRESSORA*/
+
+
+menu{
+    display: none;
+}
+
+article::after{
+    content: 'Escrito através do Curso Em vídeo';
+}
+h2 {
+    color: pink;
+}

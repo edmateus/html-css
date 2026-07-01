@@ -1,0 +1,23 @@
+@charset 'UTF-8';
+
+/*TELA*/
+
+*{
+    margin: 0px;
+  
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    background-color: lightgray;
+    color: blue;
+}
+
+menu{
+     padding: 0;
+    list-style: none;
+}
+menu li{
+    display: inline-block;
+}
+
+
