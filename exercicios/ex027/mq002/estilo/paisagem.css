@@ -3,7 +3,7 @@
 /*Cofigurações deitado (landscape)*/
 
 body{
-    background: url(../mq002/imagens/cev-landscape.jpg);
+    background: url(../imagens/cev-landscape.jpg);
     background-repeat: no-repeat;
-    background-size: bottom left;
+    background-size: left bottom;
 }
