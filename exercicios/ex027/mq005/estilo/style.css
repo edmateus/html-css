@@ -1,5 +1,59 @@
 @charset 'UTF-8';
 
 *{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+html body{ 
     background-color: lightgray;
+}
+h1{
+    background-color: gray;
+    text-align: center;
+    padding: 20px;
+}
+
+menu{
+    background-color: rgb(114, 102, 102);
+    display: block;
+}
+li{
+    text-align:center;
+    padding: 8px;
+    list-style-type: none;
+    border: 1px solid lightgray;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    background-color: grey;
+}
+
+li:hover{
+    background-color: grey;
+}
+
+article{
+    background-color: white;
+    width: 90vw;
+    margin: auto;
+    text-align: justify;
+    text-indent: 20px;
+    border-radius: 20px;
+    position: auto;
+}
+p{
+    padding: 20px;
+
+}
+
+h2{
+    text-align: center;
+    padding: 15px;
 }
