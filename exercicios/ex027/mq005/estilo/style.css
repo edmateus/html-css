@@ -15,9 +15,28 @@ h1{
     padding: 20px;
 }
 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+  background-color: rgb(59, 57, 57);
+  width: 100vw;
+  color: white;
+  text-align: center;
+  display: block;
+  padding: 10px;
+  cursor: pointer;
+}
+.material-symbols-outlined:hover {
+    background-color: white;
+    color: rgb(59, 57, 57);
+
+}
 menu{
     background-color: rgb(114, 102, 102);
-    display: block;
+    display: none;
 }
 li{
     text-align:center;
@@ -58,11 +77,5 @@ h2{
     padding: 15px;
 }
 
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
-}
+
 
